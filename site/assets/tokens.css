@@ -1,0 +1,29 @@
+/* dotlabs brand tokens — v1.1 */
+:root {
+  /* color */
+  --dl-ink: #0B0B0B;        /* ground */
+  --dl-graphite: #1C1C1A;   /* cards, code blocks */
+  --dl-surface: #141412;    /* raised panels */
+  --dl-line: #262623;       /* borders */
+  --dl-ash: #9A9A92;        /* secondary text, metadata */
+  --dl-mist: #C9C8BE;       /* body text on Ink */
+  --dl-bone: #ECEAE0;       /* primary text, light ground */
+  --dl-cream: #F2E8C8;      /* the slash */
+  --dl-amber: #FFB000;      /* the dot — accent, ~5% of any surface */
+  --dl-amber-deep: #7A4D00; /* amber text on light grounds */
+
+  /* type */
+  --dl-font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --dl-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --dl-text-display: 96px;  --dl-lh-display: 0.95; --dl-ls-display: -0.05em;
+  --dl-text-h1: 56px;       --dl-lh-h1: 1.0;       --dl-ls-h1: -0.04em;
+  --dl-text-h2: 32px;       --dl-lh-h2: 1.1;       --dl-ls-h2: -0.03em;
+  --dl-text-lead: 24px;     --dl-lh-lead: 1.2;     --dl-ls-lead: -0.02em;
+  --dl-text-body: 17px;     --dl-lh-body: 1.55;
+  --dl-text-mono: 14px;     --dl-lh-mono: 1.7;
+  --dl-text-label: 12px;    --dl-ls-label: 0.04em;
+
+  /* shape */
+  --dl-radius: 0px;         /* square corners everywhere */
+  --dl-slash-angle: 31deg;
+}
