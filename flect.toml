@@ -1,10 +1,16 @@
 # dotlabs.dev on Flect Pages.
 #
 # `flect page deploy` asks the broker to clone this repo and serve the result at
-# https://dotlabs-dev-<id>.up.flect.run, plus `domain` once its DNS points at
+# https://dotlabs-dev-1a92d8.up.flect.run, plus `domain` once its DNS points at
 # Flect. `site/` is plain HTML, so the build step has nothing to do: the
 # command is a no-op and the builder publishes `out` as it is. The repo must be
 # public; the builder clones without credentials.
+#
+# DNS for `domain` (Cloudflare): CNAME `@` -> dotlabs-dev-1a92d8.up.flect.run,
+# proxy OFF (DNS only). Flect gets the certificate for a custom domain over
+# HTTP-01, which fails while Cloudflare proxies the name. The generated host
+# is stable across redeploys; it changes only if the page is recreated.
+# Only one domain is supported: www needs a Cloudflare redirect to the apex.
 
 [page]
 name   = "dotlabs-dev"
