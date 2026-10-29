@@ -35,7 +35,7 @@ a{color:#FFB000}a:hover{color:#ECEAE0}
     <p style="margin: 0; font-size: 22px; line-height: 1.45; color: #C9C8BE; max-width: 640px">The tools, services and infrastructure you need to build software. Use one, or let them work together.</p>
     <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center">
       <a href="#products" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; background: #ECEAE0; color: #0B0B0B; text-decoration: none; font-weight: 500; font-size: 16px">Explore products</a>
-      <a href="https://github.com/dotlabshq" style="display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border: 1px solid #2E2E2B; color: #ECEAE0; text-decoration: none; font-weight: 500; font-size: 16px">Read the docs</a>
+      <span style="font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #9A9A92">for developers who build with agents</span>
     </div>
   </section>
 
@@ -45,30 +45,36 @@ a{color:#FFB000}a:hover{color:#ECEAE0}
       <span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #9A9A92">each one stands alone · together, less glue</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
-      <a href="https://github.com/dotlabshq/foldbase" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #141412; border: 1px solid #262623; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">database · models · migrations</span><span style="color: #0B0B0B; background: #FFB000; padding: 3px 8px; white-space: nowrap">available</span></div>
-        <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">foldbase</span>
-        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Your data layer, ready to evolve.</span>
-        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">An open alternative to hosted backends. Model your data, run migrations, and keep the schema moving with the product.</p>
+      <a href="mailto:info@dotlabs.dev?subject=emailfs%20early%20access" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #0B0B0B; border: 1px dashed #3A3A36; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">mail · markdown · mcp</span><span style="color: #C9C8BE; border: 1px solid #4A4A45; padding: 2px 8px; white-space: nowrap">early access</span></div>
+        <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">emailfs</span>
+        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">A mailbox your agent can read.</span>
+        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">Incoming mail lands as Markdown, ready over REST or MCP. Give each agent its own address.</p>
       </a>
-      <a href="https://github.com/dotlabshq/flect-docs" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #141412; border: 1px solid #262623; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">deploy · db · cache · store</span><span style="color: #0B0B0B; background: #FFB000; padding: 3px 8px; white-space: nowrap">available</span></div>
+      <a href="https://flect.cloud" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #141412; border: 1px solid #262623; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">deploy · db · kv · storage</span><span style="color: #0B0B0B; background: #FFB000; padding: 3px 8px; white-space: nowrap">live</span></div>
         <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">flect</span>
         <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Infrastructure without the setup.</span>
-        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">Deploy with database, cache and object storage already in place. The parts every app needs, ready when you ship.</p>
+        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">Describe your app in one flect.toml and deploy. Database, key-value and object storage come wired in.</p>
       </a>
-      <div style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #0B0B0B; border: 1px dashed #3A3A36; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">tasks · project workflows</span><span style="color: #C9C8BE; border: 1px solid #4A4A45; padding: 2px 8px; white-space: nowrap">coming next</span></div>
+      <a href="mailto:info@dotlabs.dev?subject=clave.one%20early%20access" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #0B0B0B; border: 1px dashed #3A3A36; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">plans · agents · approvals</span><span style="color: #C9C8BE; border: 1px solid #4A4A45; padding: 2px 8px; white-space: nowrap">early access</span></div>
         <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">clave.one</span>
-        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Work, tracked where you build.</span>
-        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #9A9A92">Task and project management that shares accounts, people and permissions with the rest of your stack.</p>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #0B0B0B; border: 1px dashed #3A3A36; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
-        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">finance · accounting</span><span style="color: #C9C8BE; border: 1px solid #4A4A45; padding: 2px 8px; white-space: nowrap">planned</span></div>
-        <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">strine</span>
-        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Books that keep up with the product.</span>
-        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #9A9A92">Accounting connected to billing and contacts, so the numbers follow the work instead of being re-typed.</p>
-      </div>
+        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Agents and people, on one plan.</span>
+        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">A company plan you can zoom from the year down to a single task. Every unit has an agent doing the work; approvals land with a person.</p>
+      </a>
+      <a href="https://orbseal.com" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #141412; border: 1px solid #262623; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">config · secrets · e2e</span><span style="color: #0B0B0B; background: #FFB000; padding: 3px 8px; white-space: nowrap">live</span></div>
+        <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">orbseal</span>
+        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Typed config, sealed secrets.</span>
+        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">Typed configuration and end-to-end encrypted secrets, from the CLI or the SDK.</p>
+      </a>
+      <a href="https://github.com/dotlabshq/foldbase" style="display: flex; flex-direction: column; gap: 16px; padding: 28px; background: #141412; border: 1px solid #262623; text-decoration: none; color: #ECEAE0; min-height: 260px; box-sizing: border-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: 'JetBrains Mono', monospace; font-size: 12px"><span style="color: #9A9A92">events · folds · queries</span><span style="color: #C9C8BE; border: 1px solid #4A4A45; padding: 2px 8px; white-space: nowrap">open source · v0.4</span></div>
+        <span style="font-size: 32px; font-weight: 700; letter-spacing: -0.04em; line-height: 1">foldbase</span>
+        <span style="font-size: 18px; font-weight: 500; line-height: 1.3">Your data layer, ready to evolve.</span>
+        <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #C9C8BE">An event store that folds events into read models, with policy-checked queries. The data layer under every dotlabs product.</p>
+      </a>
     </div>
   </section>
 
@@ -77,7 +83,7 @@ a{color:#FFB000}a:hover{color:#ECEAE0}
       <div style="display: flex; flex-direction: column; gap: 12px; max-width: 720px">
         <span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #FFB000">shared services</span>
         <h2 style="margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -0.04em; line-height: 1.05">The glue, already written.</h2>
-        <p style="margin: 0; font-size: 18px; line-height: 1.55; color: #C9C8BE">Ready-made packages every product can lean on — or that you can drop into your own app on their own.</p>
+        <p style="margin: 0; font-size: 18px; line-height: 1.55; color: #C9C8BE">Every dotlabs product runs on the same services underneath. That is how they share one account today, and one bill and one dashboard next.</p>
       </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1px; background: #262623; border: 1px solid #262623">
         <div style="background: #111110; padding: 24px; display: flex; flex-direction: column; gap: 8px">
@@ -85,12 +91,12 @@ a{color:#FFB000}a:hover{color:#ECEAE0}
           <span style="font-size: 14px; line-height: 1.5; color: #9A9A92">Sign-in, sessions and tokens.</span>
         </div>
         <div style="background: #111110; padding: 24px; display: flex; flex-direction: column; gap: 8px">
-          <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: #ECEAE0">iam</span>
-          <span style="font-size: 14px; line-height: 1.5; color: #9A9A92">Roles, permissions and teams.</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: #ECEAE0">org · iam</span>
+          <span style="font-size: 14px; line-height: 1.5; color: #9A9A92">Organisations, roles and permissions.</span>
         </div>
         <div style="background: #111110; padding: 24px; display: flex; flex-direction: column; gap: 8px">
-          <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: #ECEAE0">contacts</span>
-          <span style="font-size: 14px; line-height: 1.5; color: #9A9A92">People and organisations, in one place.</span>
+          <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: #ECEAE0">customers</span>
+          <span style="font-size: 14px; line-height: 1.5; color: #9A9A92">The people and companies you work with.</span>
         </div>
         <div style="background: #111110; padding: 24px; display: flex; flex-direction: column; gap: 8px">
           <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; color: #ECEAE0">billing</span>
@@ -114,11 +120,11 @@ a{color:#FFB000}a:hover{color:#ECEAE0}
   <section id="lab" style="max-width: 1200px; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 72px 32px; display: flex; flex-direction: column; gap: 20px">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px">
       <h2 style="margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.03em">From the lab</h2>
-      <span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #9A9A92">open-source developer tools · MIT</span>
+      <span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #9A9A92">open-source developer tools</span>
     </div>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; font-size: 14px; line-height: 1.5">
+      <a href="https://github.com/dotlabshq/crux" style="display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #262623; text-decoration: none; color: #C9C8BE"><span style="font-family: 'JetBrains Mono', monospace; color: #ECEAE0">crux</span>Markdown-native multi-agent workspace. Hosted: clave.one.</a>
       <a href="https://github.com/dotlabshq/spec-ops" style="display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #262623; text-decoration: none; color: #C9C8BE"><span style="font-family: 'JetBrains Mono', monospace; color: #ECEAE0">spec-ops</span>Spec-driven infrastructure as code.</a>
-      <a href="https://github.com/dotlabshq/crux" style="display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #262623; text-decoration: none; color: #C9C8BE"><span style="font-family: 'JetBrains Mono', monospace; color: #ECEAE0">crux</span>Markdown-native multi-agent workspace.</a>
       <a href="https://github.com/dotlabshq/gateflow" style="display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #262623; text-decoration: none; color: #C9C8BE"><span style="font-family: 'JetBrains Mono', monospace; color: #ECEAE0">gateflow</span>Local-first LLM gateway for Ollama.</a>
       <a href="https://github.com/dotlabshq/s3-browser" style="display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #262623; text-decoration: none; color: #C9C8BE"><span style="font-family: 'JetBrains Mono', monospace; color: #ECEAE0">s3-browser</span>S3 file browser with RBAC.</a>
     </div>

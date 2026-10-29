@@ -1,0 +1,17 @@
+# dotlabs.dev on Flect Pages.
+#
+# `flect page deploy` asks the broker to clone this repo and serve the result at
+# https://dotlabs-dev-<id>.up.flect.run, plus `domain` once its DNS points at
+# Flect. `site/` is plain HTML, so the build step has nothing to do: the
+# command is a no-op and the builder publishes `out` as it is. The repo must be
+# public; the builder clones without credentials.
+
+[page]
+name   = "dotlabs-dev"
+repo   = "https://github.com/dotlabshq/dotlabs.dev"
+ref    = "main"
+domain = "dotlabs.dev"
+
+[page.build]
+command = "node -e 0"
+out     = "site"
